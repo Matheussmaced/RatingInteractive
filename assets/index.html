@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Rating Component Main</title>
+    <!--TextoFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@300;400;700&family=Hanken+Grotesk:wght@800&family=Inter:wght@300;500&family=Lexend+Deca&family=Montserrat:ital,wght@0,300;0,500;1,500&family=Open+Sans:wght@300;400&family=Outfit:wght@200;300;800&family=Overpass&family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,800&family=Red+Hat+Display:wght@300;400&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div  id="container-master"> <!--hide-->
+      <img id="star" src="/assets/img/icon-star.svg" alt="StarOrange" />
+      <div id="text">
+        <h1>How did we do?</h1>
+
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <div id="buttons" >
+          <button id="button1" class="">1</button> <!--activeButtons-->
+          <button id="button2" class="">2</button>
+          <button id="button3" class="">3</button>
+          <button id="button4" class="">4</button>
+          <button id="button5" class="">5</button>
+          <div id="submit">
+            <button id="submitBtn" type="submit">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--JS-->
+    <div class="hide" id="divFinal"> <!--thankYouHide-->
+          <img src="/assets/img/illustration-thank-you.svg" alt="">
+           <h3 id="result">You selected 4 out of 5</h3>
+          <h1>Thank You!</h1>
+          <p id="pHide">We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!</p>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
