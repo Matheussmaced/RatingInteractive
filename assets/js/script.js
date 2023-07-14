@@ -25,7 +25,7 @@ btnGeral.addEventListener('click', (e)=>{
 })
 
 const b1 = btn1.addEventListener('click', ()=>{
-        result.innerHTML = `ou selected 1 out of 5`
+        result.innerHTML = `You selected 1 out of 5`
         btn1.classList.toggle('activeButtons')
 
         btn2.classList.remove('activeButtons')
@@ -35,7 +35,7 @@ const b1 = btn1.addEventListener('click', ()=>{
 })
 
 const b2 = btn2.addEventListener('click', ()=>{
-    result.innerHTML = `ou selected 2 out of 5`
+    result.innerHTML = `You selected 2 out of 5`
         btn2.classList.toggle('activeButtons')
 
         btn1.classList.remove('activeButtons')
@@ -45,7 +45,7 @@ const b2 = btn2.addEventListener('click', ()=>{
 })
 
 const b3 = btn3.addEventListener('click', ()=>{
-        result.innerHTML = `ou selected 3 out of 5`
+        result.innerHTML = `You selected 3 out of 5`
         btn3.classList.toggle('activeButtons')
 
         btn1.classList.remove('activeButtons')
@@ -55,7 +55,7 @@ const b3 = btn3.addEventListener('click', ()=>{
 })
 
 const b4 = btn4.addEventListener('click', ()=>{
-        result.innerHTML = `ou selected 4 out of 5`
+        result.innerHTML = `You selected 4 out of 5`
         btn4.classList.toggle('activeButtons')
 
         btn1.classList.remove('activeButtons')
@@ -65,7 +65,7 @@ const b4 = btn4.addEventListener('click', ()=>{
 })
 
 const b5 = btn5.addEventListener('click', ()=>{
-        result.innerHTML = `ou selected 5 out of 5`
+        result.innerHTML = `You selected 5 out of 5`
         btn5.classList.toggle('activeButtons')
 
         btn1.classList.remove('activeButtons')

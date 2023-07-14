@@ -152,4 +152,50 @@ h3{
     margin-bottom: 1rem;
 }
 
+/*Mobile*/
 
+@media(max-width: 900px){
+    #container-master{
+        display: block;
+        max-width: 90%;
+        padding: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--Dark_Blue);
+        border-radius: 30px;
+    }
+
+    #buttons{
+        word-spacing: .6rem;
+        text-align: center;
+    }
+
+    p{
+        margin-bottom: 1.6rem;
+        padding-right: 0px;
+        color: var(--Light_Grey);
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    #submitBtn:hover{
+        background-color: var(--Orange);
+        color: var(--White);
+    }
+
+    .thankYouHide{
+        display: block;
+        max-width: 95%;
+        padding: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--Dark_Blue);
+        border-radius: 30px;
+        text-align: center;
+    }
+    
+}
